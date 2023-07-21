@@ -395,6 +395,7 @@ background-color: #323232
   }
 .product__imgbox {
   display: flex;
+  max-width: 100%;
   justify-content: center;
   margin-left: 20px;
   margin-right: 20px;
