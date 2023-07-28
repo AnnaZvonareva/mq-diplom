@@ -344,9 +344,16 @@
 
 <section class="products">
     <article class="product">
-      <div class="product__imgbox">
-        <img class="product__img" src="images/shop-item-desk1.jpg" alt="Превью товара">
-      </div>
+      <picture class="product__imgbox">
+        <source media="(min-width: 1200px)"
+                scrset="images/shop-item-desk1.jpg">
+        <source media="(min-width: 641px)"
+                scrset="images/shop-item-tablet1.jpg">
+        <source scrset="images/shop-item-mobile1.jpg">
+        <img class="product__img"
+             src="images/shop-item-desk1.jpg"
+             alt="Превью товара">
+      </picture>
      <div class="product__body">
         <div class="product__content">
           <h3 class="product__title">Подушки на диван</h3>
@@ -368,10 +375,17 @@
       </div>
     </article>
 
-  <article class="product">
-      <div class="product__imgbox">
-        <img class="product__img" src="images/shop-item-desk2.jpg" alt="Превью товара">
-      </div>
+  <article class="product product2">
+    <picture class="product__imgbox">
+      <source media="(min-width: 1200px)"
+              scrset="images/shop-item-desk2.jpg">
+      <source media="(min-width: 641px)"
+              scrset="images/shop-item-tablet2.jpg">
+      <source scrset="images/shop-item-mobile2.jpg">
+      <img class="product__img"
+           src="images/shop-item-desk2.jpg"
+           alt="Превью товара">
+    </picture>
       <div class="product__body">
         <div class="product__content">
           <h3 class="product__title">Кукла "Зайчик"</h3>
@@ -393,9 +407,16 @@
       </div>
     </article>
   <article class="product">
-      <div class="product__imgbox">
-        <img class="product__img" src="images/shop-item-desk3.jpg" alt="Превью товара">
-      </div>
+    <picture class="product__imgbox">
+      <source media="(min-width: 1200px)"
+              scrset="images/shop-item-desk3.jpg">
+      <source media="(min-width: 641px)"
+              scrset="images/shop-item-tablet3.jpg">
+      <source scrset="images/shop-item-mobile3.jpg">
+      <img class="product__img"
+           src="images/shop-item-desk3.jpg"
+           alt="Превью товара">
+    </picture>
       <div class="product__body">
         <div class="product__content">
           <h3 class="product__title">Шестиугольная рамка</h3>
